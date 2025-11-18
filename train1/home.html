@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RailWaves - Home</title>
+  <link rel="stylesheet" href="css/style2.css" />
+</head>
+<body>
+  <div class="home-container">
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <h2 class="logo">RailReserve 🚆</h2>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">My Bookings</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="login.html" class="logout-btn">Logout</a></li>
+      </ul>
+    </div>
+
+    <!-- Search Box -->
+    <div class="search-box">
+      <h2>Book Your Train Journey</h2>
+      <p>Find and book trains easily — travel made simple.</p>
+
+      <form action="search.html" method="get">
+        <div class="form-row">
+          <div class="input-group">
+            <label>From</label>
+            <input type="text" placeholder="Enter source station" required />
+          </div>
+
+          <div class="input-group">
+            <label>To</label>
+            <input type="text" placeholder="Enter destination station" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="input-group">
+            <label>Date of Journey</label>
+            <input type="date" required />
+          </div>
+
+          <div class="input-group">
+            <label>Class</label>
+            <select required>
+              <option value="">Select class</option>
+              <option value="Sleeper">Sleeper</option>
+              <option value="3A">AC 3 Tier</option>
+              <option value="2A">AC 2 Tier</option>
+              <option value="1A">First AC</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="login-btn">Search Trains</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

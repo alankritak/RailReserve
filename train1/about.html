@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - RailWaves</title>
+  <link rel="stylesheet" href="css/style2.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #007bff, #00d4ff);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar .logo {
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* About Section */
+    .about-container {
+      flex: 1;
+      max-width: 900px;
+      margin: 60px auto;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+
+    .about-container h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .about-container p {
+      font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 25px;
+    }
+
+    .mission {
+      margin-top: 40px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.3);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <h2 class="logo">RailReserve 🚆</h2>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </div>
+
+  <!-- About Section -->
+  <div class="about-container">
+    <h1>About Railreserve</h1>
+    <p>
+      Welcome to <strong>Railreserve</strong>, your one-stop solution for seamless train booking and travel planning.  
+      We aim to make your journey smoother, smarter, and more convenient by bringing all train-related services under one platform.
+    </p>
+
+    <div class="mission">
+      <h2>Our Mission</h2>
+      <p>
+        At RailReserve, our mission is to revolutionize the way people travel by train — through technology, transparency, and trust.  
+        We strive to make train bookings faster, ticket management simpler, and travel experiences more enjoyable.
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    © 2025 RailReserve. All Rights Reserved.
+  </div>
+</body>
+</html>

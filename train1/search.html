@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Available Trains</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100vh;
+      color: #fff;
+    }
+
+    .train-container {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      padding: 30px;
+      width: 400px;
+      margin-top: 60px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 26px;
+      color: #fff;
+    }
+
+    .train-card {
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 15px;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      color: #222;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .train-info {
+      flex: 1;
+    }
+
+    .train-name {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .train-details {
+      font-size: 14px;
+      color: #ddd;
+      margin-top: 5px;
+    }
+
+    .book-btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center;
+      transition: background 0.3s ease;
+    }
+
+    .book-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="train-container">
+    <h2>Available Trains</h2>
+
+    <div class="train-card">
+      <div class="train-info">
+        <div class="train-name">Express Line 101</div>
+        <div class="train-details">
+          Departure: 08:00 AM — Arrival: 12:30 PM<br>
+          Duration: 4h 30m | Class: Sleeper
+        </div>
+      </div>
+      <a href="book.html" class="book-btn">Book<br>Now</a>
+    </div>
+
+    <div class="train-card">
+      <div class="train-info">
+        <div class="train-name">Superfast 207</div>
+        <div class="train-details">
+          Departure: 09:15 AM — Arrival: 01:45 PM<br>
+          Duration: 4h 30m | Class: AC Chair Car
+        </div>
+      </div>
+      <a href="book.html" class="book-btn">Book<br>Now</a>
+    </div>
+
+    <div class="train-card">
+      <div class="train-info">
+        <div class="train-name">Morning Star 303</div>
+        <div class="train-details">
+          Departure: 11:00 AM — Arrival: 03:20 PM<br>
+          Duration: 4h 20m | Class: First AC
+        </div>
+      </div>
+      <a href="book.html" class="book-btn">Book<br>Now</a>
+    </div>
+  </div>
+
+</body>
+</html>
